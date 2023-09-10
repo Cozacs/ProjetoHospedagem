@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* Branco #fff
+ * Branco #f1f3f7
+ * Branco #f6f6f6
+ * Cinza #a89f9f
+ * Azul Escuro #233032
+ * Azul claro #2f86d6
+ * Azul Shadow rgba(47, 134, 214, 1)
+ */
+
+:root {
+    --cor0: #fff;
+    --cor1: #f1f3f7;
+    --cor2: #f6f6f6;
+    --cor3: #a89f9f;
+    --cor4: #233032;
+    --cor5: #2f86d6;
+    --cor6: rgba(47, 134, 214, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-color: var(--cor5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#espaco-logo {
+    display: flex;
+    padding-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 25px;
+}
+
+#img-logo {
+    background-image: url('../../imagem/logo-icone-escuro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4vw;
+}
+
+#espaco-logo div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+}
+
+#espaco-logo div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: var(--cor0);
+}
+
+#espaco-navegar p a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: 600;
+    font-size: 1.5vw;
+    margin: 0px 5px;
+}
+
+table {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    width: 90vw;
+}
+
+.planos {
+    background-color: var(--cor1);
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+th span {
+    font-size: 1.1vw;
+    color: var(--cor3);
+}
+
+td {
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.ponto {
+    margin: auto;
+    background-color: var(--cor5);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.referencia {
+    background-color: var(--cor2);
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fundo-azul {
+    background-color: var(--cor5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#direitos {
+    font-size: 1.6vw;
+    color: var(--cor0);
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+footer span {
+    color: var(--cor5);
+}
+
